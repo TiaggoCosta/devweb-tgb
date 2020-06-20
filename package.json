@@ -1,0 +1,33 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
+    "mongoose": "^5.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiagoKuste/devweb-tgb.git"
+  },
+  "keywords": [],
+  "author": [
+    "Karolina Pacheco",
+    "Nadine Schneider",
+    "Tiago Costa"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TiagoKuste/devweb-tgb/issues"
+  },
+  "homepage": "https://github.com/TiagoKuste/devweb-tgb#readme"
+}
