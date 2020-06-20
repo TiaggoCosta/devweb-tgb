@@ -6,11 +6,11 @@ module.exports = function(){
     app.set('view engine', 'ejs');
     app.set('views', './app/views');
     
-    var rotas= require('../app/routs/web');
+    var rotas= require('../app/routes/web');
     rotas(app);;
     
-    app.listen(8000, function(){
-        console.log('localhost: 8000');
+    app.listen(3000, function(){
+        console.log('localhost: 3000');
     });
 
 };
