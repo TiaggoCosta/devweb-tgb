@@ -1,4 +1,4 @@
-
+require('dotenv').config();
 module.exports = function(){
     var express = require('express');
 
@@ -7,10 +7,10 @@ module.exports = function(){
     app.set('views', './app/views');
     
     var rotas= require('../app/routes/web');
-    rotas(app);;
+    rotas(app);
     
-    app.listen(3000, function(){
-        console.log('localhost: 3000');
+    app.listen(process.env.PORT, function(){
+        console.log('localhost: ' + process.env.PORT);
     });
 
 };
