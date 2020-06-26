@@ -8,7 +8,8 @@ module.exports = function(app){
     app.get('/', function(req,res){
         //console.log(clienteModel.all());
         var listaClientes = clienteModel.all();//pega a lista de clientes
-        res.render('site/home',{clientes:listaClientes}); //envia como objeto para view
+        res.render('site/');
+        //res.render('site/home',{clientes:listaClientes}); //envia como objeto para view
     });
 
 };

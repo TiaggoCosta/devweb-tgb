@@ -12,6 +12,5 @@ module.exports = function(){
     app.listen(process.env.PORT, function(){
         console.log('localhost: ' + process.env.PORT);
     });
-
 };
 

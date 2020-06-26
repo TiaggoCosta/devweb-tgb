@@ -1,5 +1,5 @@
 {
-  "name": "node",
+  "name": "todo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -20,7 +20,7 @@
     "url": "git+https://github.com/TiagoKuste/devweb-tgb.git"
   },
   "keywords": [],
-  "author": [
+  "authors": [
     "Karolina Pacheco",
     "Nadine Schneider",
     "Tiago Costa"
