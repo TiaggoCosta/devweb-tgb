@@ -114,10 +114,10 @@ $(document).ready(function(){
   
   function buttonState() {
     if(localStorage.taskView == "complete") {
-      $("#doneTasks").addClass("clicked");
+      $("#doneTasks").addClass("active");
     } else if(localStorage.taskView == "incomplete") {
-      $("#undoneTasks").addClass("clicked");
+      $("#undoneTasks").addClass("active");
     } else {
-      $("#allTasks").addClass("clicked");
+      $("#allTasks").addClass("active");
     }
   }
