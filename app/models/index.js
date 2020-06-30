@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 mongoose.set('debug', true);
-mongoose.connect('mongodb+srv://TiagoKuste:hash71460goorm@cluster0-qlt5s.mongodb.net/test?retryWrites=true', {
+mongoose.connect(process.env.DATABASE, {
 	useNewUrlParser: true,
 	useCreateIndex: true
 }).then(() => {
